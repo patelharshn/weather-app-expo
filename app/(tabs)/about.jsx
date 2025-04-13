@@ -58,7 +58,9 @@ export default function TabTwoScreen() {
           You can download this project from my GitHub link:
         </Text>
         <TouchableOpacity
-          onPress={() => Linking.openURL("https://www.github.com")}
+          onPress={() =>
+            Linking.openURL("https://github.com/patelharshn/weather-app-expo")
+          }
         >
           <Text style={styles.link}>Download Source Code</Text>
         </TouchableOpacity>
